@@ -13,5 +13,7 @@ class Projeto(models.Model):
         on_delete=models.PROTECT,
         related_name="projetos_coordenador"
         )
+
+
     def __str__(self):
-        return f'{self.titulo} - {self.coordenador.nome}'
+        return f'{self.titulo} [{self.coordenador.nome}]'

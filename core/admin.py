@@ -1,4 +1,5 @@
 from django.contrib import admin
+from core.models.bolsista import Bolsista
 from core.models.discente import Discente
 from core.models.edital import Edital
 from core.models.externo import Externo
@@ -11,3 +12,4 @@ admin.site.register(Servidor)
 admin.site.register(Discente)
 admin.site.register(Externo)
 admin.site.register(Projeto)
+admin.site.register(Bolsista)
