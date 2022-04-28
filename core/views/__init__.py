@@ -4,3 +4,4 @@ from .discente import DiscenteViewSet
 from .externo import ExternoViewSet
 from .projeto import ProjetoViewSet
 from .bolsista import BolsistaViewSet
+from .auxilio import AuxilioViewSet

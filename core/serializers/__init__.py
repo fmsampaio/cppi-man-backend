@@ -4,3 +4,4 @@ from .discente import DiscenteSerializer
 from .externo import ExternoSerializer
 from .projeto import ProjetoSerializer
 from .bolsista import BolsistaSerializer
+from .auxilio import AuxilioSerializer
