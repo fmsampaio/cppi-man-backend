@@ -1,7 +1,7 @@
 from django.db import models
 from core.models.discente import Discente
 
-from core.models.projeto import Projeto
+from core.models import Projeto
 
 class Bolsista(models.Model):
     projeto = models.ForeignKey(
