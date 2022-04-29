@@ -283,3 +283,4 @@ cython_debug/
 *.sqlite3
 
 core/migrations/*
+*.tsv
