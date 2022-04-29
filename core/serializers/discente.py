@@ -10,3 +10,13 @@ class DiscenteSerializer(serializers.ModelSerializer):
         model = Discente
         fields = '__all__'
         depth = 3
+
+class CriarEditarDiscenteSerializer(serializers.ModelSerializer):
+    atuacoes_bolsista = []
+
+
+    class Meta:
+        model = Discente
+        fields = ('nome', 'cpf', 'matricula', 'email', 'municipio', 'curso', 'link_lattes', 'campus')
+    
+
