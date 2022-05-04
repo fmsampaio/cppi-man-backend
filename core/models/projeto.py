@@ -8,7 +8,7 @@ class Projeto(models.Model):
     data_inicio = models.DateField()
     data_termino = models.DateField()
     url_projeto = models.URLField(blank=True)
-    resumo = models.CharField(max_length=2048, blank=True)
+    resumo = models.CharField(max_length=4096, blank=True)
     edital = models.ForeignKey(
         Edital,
         on_delete=models.CASCADE,
